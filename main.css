@@ -1,0 +1,19 @@
+/* أنماط المستطيل وأزرار الأكواد */
+.code-rectangle {
+    background-color: #8B4513; /* اللون البني للمستطيل */
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.code-rectangle a {
+    background-color: #FFA500; /* لون زر الكود */
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.code-rectangle a:hover {
+    background-color: #FFD700; /* لون زر الكود عند التحويم */
+}

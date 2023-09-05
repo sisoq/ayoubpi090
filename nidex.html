@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+ <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="image.css">
+</head>
+ 
+    <body>
+    
+        <main>
+            <div class="code-rectangle">
+                <a href="index4.html">الخدمات</a>
+                <a href="https://sisoq.github.io/shop-vini/">المنتجات</a>
+                <a href="index5.html">اتصل بنا</a>
+                <a href="https://sisoq.github.io/tajre/index21.html">test</a>
+            </div>
+        </main>
+      
+
+      <div class="image-container">
+        <div class="slideshow-container">
+          <img class="slideshow-image" src="imag/baseline_arrow_back_black_24dp.png" alt="Image 1">
+          <img class="slideshow-image" src="imag/5lY42eHs_400x400.jpg" alt="Image 2">
+          <img class="slideshow-image" src="imag/baseline_arrow_back_black_24dp.png" alt="Image 3">
+          <img class="slideshow-image" src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Image 4">
+          <img class="slideshow-image" src="imag/facebook-icon.png" alt="Image 5">
+          <div class="nav-buttons">
+            <button class="nav-button previous">←</button>
+            <span class="image-count active" data-number="1">1</span>
+            <span class="image-count active" data-number="2">2</span>
+            <span class="image-count active" data-number="3">3</span>
+            <span class="image-count active" data-number="4">4</span>
+            <span class="image-count active" data-number="5">5</span>
+            <button class="nav-button next">→</button>
+          </div>
+        </div>
+      </div> 
+         <div class="menu">
+        <div class="menu-button fixed-menu-button">
+          <img class="menu-icon" src="imag/baseline_menu_black_24dp.png" alt="">
+        </div>
+        <div class="popup float">
+          <div style="height: 40px;"></div>
+          <p><a href="index4.html">الخدمات</a></p>
+          <p><a href="https://sisoq.github.io/shop-vini/">المنتجات</a></p>
+          <p><a href="index5.html">اتصل بنا</a></p>
+          <p><a href="https://sisoq.github.io/tajre/index21.html">test</a></p>
+        </div>
+      </div>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+          <h1>udutfl</h1>
+          <h1>duckf</h1>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+          <h1>udutfl</h1>
+          <h1>duckf</h1>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+          <h1>udutfl</h1>
+          <h1>duckf</h1>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+          <h1>udutfl</h1>
+          <h1>duckf</h1>
+        </div>
+      </article>
+      <article class="card">
+        <figure>
+          <img src="imag/2x1_NSwitch_EaSportsFc24_image1600w.jpg" alt="Winter Forest">
+          <figcaption>
+            <h3>Winter Forest</h3>
+          </figcaption>
+        </figure>
+        <div class="popup-content">
+          <p>محتوى هام 1</p>
+          <h1>udutfl</h1>
+          <h1>duckf</h1>
+        </div>
+      </article>
+
+
+
+
+      <script>
+         
+
+
+
+    // JavaScript للزر والقائمة المنبثقة //
+const menuButton = document.querySelector(".menu-button");
+const popup = document.querySelector(".popup");
+
+menuButton.addEventListener("click", () => {
+  popup.classList.toggle("show-popup");
+});
+
+
+//  للصورة الشرائحية //
+const images = document.querySelectorAll(".slideshow-image");
+const prevButton = document.querySelector(".nav-button.previous");
+const nextButton = document.querySelector(".nav-button.next");
+const imageCountSpans = document.querySelectorAll(".image-count");
+let currentIndex = 0;
+
+function showImage(index) {
+  images.forEach(image => image.style.opacity = 0);
+  images[index].style.opacity = 1;
+
+  imageCountSpans.forEach((span, idx) => {
+    span.classList.remove("active");
+    if (idx === index) {
+      span.classList.add("active");
+    }
+  });
+}
+
+prevButton.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  showImage(currentIndex);
+});
+
+nextButton.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+});
+
+imageCountSpans.forEach((span, idx) => {
+  span.addEventListener("click", () => {
+    currentIndex = idx;
+    showImage(currentIndex);
+  });
+});
+
+images[currentIndex].style.opacity = 1;
+
+setTimeout(() => {
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  }, 10000);
+},10000 )
+
+
+// JavaScript للبطاقة //
+const cards = document.querySelectorAll(".card");
+
+cards.forEach(card => {
+  const popupContent = card.querySelector(".popup-content");
+  card.addEventListener("mouseenter", () => {
+    popupContent.style.display = "block";
+  });
+  card.addEventListener("mouseleave", () => {
+    popupContent.style.display = "none";
+  });
+});
+
+
+// JavaScript خاص بالجزء Main //
+const main = document.querySelector("main");
+
+// قم بإضافة المزيد من الوظائف والأحداث الخاصة بالجزء Main هنا //
+
+// مثال على كيفية إضافة وظيفة عند النقر على العنصر الرئيسي //
+main.addEventListener("click", () => {
+  // اكتب الكود الذي ترغب في تنفيذه عند النقر على العنصر الرئيسي هنا //
+}); 
+
+main.addEventListener("click", () => {
+    // الكود الذي ترغب في تنفيذه عند النقر على العنصر الرئيسي هنا
+  
+    // على سبيل المثال، يمكنك تغيير لون خلفية العنصر الرئيسي
+    main.style.backgroundColor = "lightblue";
+  
+    // أو يمكنك عرض رسالة تنبيه
+    alert("تم النقر على العنصر الرئيسي!");
+  
+    // يمكنك إضافة المزيد من الوظائف والعمليات التي ترغب في تنفيذها هنا
+  });
+  
+      </script>             
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer style="margin-top: 8900px;">
+        <p>حقوق النشر © 2023 [اسم شركتك]. جميع الحقوق محفوظة.</p>
+        <p>شركاءنا:</p>
+        <ul>
+            <li>[اسم الشريك 1]</li>
+            <li>[اسم الشريك 2]</li>
+            <li>[اسم الشريك 3]</li>
+        </ul>
+        <p>تم التصميم بواسطة [اسم المصمم/الشركة المصممة].</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
