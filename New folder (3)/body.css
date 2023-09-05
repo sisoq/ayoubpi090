@@ -1,0 +1,67 @@
+/* قواعد CSS العامة للصفحة */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* قواعد CSS للشاشات الصغيرة (أجهزة محمولة) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  /* أضف المزيد من القواعد هنا لتخصيص شاشات الهواتف المحمولة */
+}
+
+/* قواعد CSS للشاشات المتوسطة (أجهزة لوحية) */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+  /* أضف المزيد من القواعد هنا لتخصيص شاشات الأجهزة اللوحية */
+}
+
+/* قواعد CSS للشاشات الكبيرة (أجهزة سطح المكتب) */
+@media screen and (min-width: 1201px) {
+  body {
+    font-size: 18px;
+  }
+  /* أضف المزيد من القواعد هنا لتخصيص شاشات أجهزة سطح المكتب */
+}
+.header {
+  height: 10vh; /* العنصر سيكون بارتفاع يعادل 10% من ارتفاع نافذة المشاهدة */
+}
+
+.content {
+  height: 80vh; /* العنصر سيكون بارتفاع يعادل 80% من ارتفاع نافذة المشاهدة */
+}
+
+.footer {
+  height: 10vh; /* العنصر سيكون بارتفاع يعادل 10% من ارتفاع نافذة المشاهدة */
+}
+html, body {
+  height: 9000px; /* ارتفاع الصفحة بوحدة البكسل */
+}
+
+
+/* media*/
+/* لعرض <main> على الحواسيب وإخفاء <menu> */
+@media (min-width: 768px) {
+  main {
+      display: block;
+  }
+
+  .menu {
+      display: none;
+  }
+}
+
+/* لعرض <menu> على الهواتف وإخفاء <main> */
+@media (max-width: 767px) {
+  main {
+      display: none;
+  }
+
+  .menu {
+      display: block;
+  }
+}
